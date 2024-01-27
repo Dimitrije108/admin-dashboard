@@ -4,7 +4,7 @@ This is a full dashboard design project as part of The Odin Project curriculum.
 
 ### [LIVE] (https://dimitrije108.github.io/admin-dashboard/)
 
-![preview screenshot](https://github.com/Dimitrije108/admin-dashboard/blob/main/index.html/preview.png)
+![preview screenshot](preview.png)
 
 ## What I learned
 
