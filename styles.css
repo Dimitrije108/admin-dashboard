@@ -97,6 +97,8 @@ img[alt="notification-icon"] {
     grid-template-columns: auto 2fr 2fr auto auto;
     grid-template-rows: 1fr;
 
+    margin-bottom: 0.5rem;
+
     align-items: center;
 }
 
@@ -334,17 +336,34 @@ h6 {
 }
 
 /* trending styles */
+
 .trending-container {
     grid-column: 2 / 3;
     grid-row: 4 / 5;
 
     background-color: rgb(255, 252, 241);
-    padding: 2rem;
+    padding: 1rem 2rem;
     margin: 0;
 
     border-radius: 0.5rem;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.trending {
+    display: flex;
+    align-items: center;
+}
+
+.trending p {
+    font-size: 0.9rem;
+    margin: 0.2rem 0 0 1rem;
+}
+
+.trending img {
+    width: 3.5rem;
+    cursor: pointer;
 }
 
